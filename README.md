@@ -57,13 +57,13 @@ total_sale IS NULL;
 
 -- Data Analysis & Bussiness problems
 
--- Q.1 How many sales complete?
+-- Q.1 How many sales were complete?
  SELECT COUNT(*) as total_sale FROM retail_sales
 
 -- Q.2 How many individual customers do we have?
 SELECT COUNT (DISTINCT customer_id) as total_sale FROM retail_sales
 
--- Q.3 Write a SQL Query to retrieve all transactions where the category is 'clothing'and the quanity sold is more than 4. 
+-- Q.3 Write a SQL Query to retrieve all transactions where the category is 'clothing' and the quantity sold is more than or equal to 4. 
 SELECT * FROM retail_sales WHERE category = 'Clothing' AND quantity >=4
 
 -- Q.4 Write a SQL query to find the average age of customers who purchase from the Electronics category.
