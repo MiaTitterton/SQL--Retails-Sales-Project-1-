@@ -66,7 +66,7 @@ SELECT COUNT (DISTINCT customer_id) as total_sale FROM retail_sales
 -- Q.3 Write a SQL Query to retrieve all transactions where the category is 'clothing'and the quanity sold is more than 4. 
 SELECT * FROM retail_sales WHERE category = 'Clothing' AND quantity >=4
 
--- Q.4 Write a SQL query to finf the average age of customers who purchase from the Electronics category.
+-- Q.4 Write a SQL query to find the average age of customers who purchase from the Electronics category.
  SELECT AVG(age) FROM retail_sales WHERE category = 'Electronics'
 
 -- Q.5 Write a SQL query to find all transactions where the total sale is great than 1000.
