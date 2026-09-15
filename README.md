@@ -8,7 +8,7 @@ Below, I have included the SQL questions and queries used throughout the project
 SELECT current_database(), current_schema();
 
 SELECT schemaname, tablename
-FROM pg_tables
+FROM pg_tables 
 WHERE tablename = 'retail_sales';
 
 SELECT * FROM retail_sales
