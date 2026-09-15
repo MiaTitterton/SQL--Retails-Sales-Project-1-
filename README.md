@@ -1,4 +1,4 @@
-OVERVIEW:This project demonstrates my SQL skills and the techniques commonly used by data analysts to explore, clean, and analyse retail sales data. It involves creating and managing a retail sales database, performing data analysis, and using SQL queries to answer key business questions and generate meaningful insights.
+OVERVIEW: This project demonstrates my SQL skills and the techniques commonly used by data analysts to explore, clean, and analyse retail sales data. It involves creating and managing a retail sales database, performing data analysis, and using SQL queries to answer key business questions and generate meaningful insights.
 
 Below, I have included the SQL questions and queries used throughout the project, demonstrating how I applied SQL to investigate the data and address specific business requirements.
 
