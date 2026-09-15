@@ -57,8 +57,8 @@ total_sale IS NULL;
 
 -- Data Analysis & Bussiness problems
 
--- How many sales complete?
--- Q.1 SELECT COUNT(*) as total_sale FROM retail_sales
+-- Q.1 How many sales complete?
+ SELECT COUNT(*) as total_sale FROM retail_sales
 
 --Q.2 How many individual customers do we have?
 SELECT COUNT (DISTINCT customer_id) as total_sale FROM retail_sales
