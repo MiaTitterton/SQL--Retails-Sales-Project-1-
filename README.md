@@ -1,3 +1,5 @@
+OVERVIEW: This project demonstrates my SQL skills and the techniques commonly used by data analysts to explore, clean, and analyse retail sales data. It involves creating and managing a retail sales database, performing data analysis, and using SQL queries to answer key business questions and generate meaningful insights.
+
 # SQL--Retails-Sales-Project-1-
 
 SELECT current_database(), current_schema();
@@ -58,8 +60,7 @@ SELECT COUNT (DISTINCT customer_id) as total_sale FROM retail_sales
 
 -- Data Analysis & Bussiness problems
 -- Q.1 Write a SQL Query to retrieve all transactions where the category is 'clothing'and the quanity sold is more than 4. 
-SELECT * FROM retail_sales WHERE category = 'Clothing' AND quantity
- >=4
+SELECT * FROM retail_sales WHERE category = 'Clothing' AND quantity >=4
 
  --Q.2 Write a SQL query to finf the average age of customers who purchase from the Electronics category.
  SELECT AVG(age) FROM retail_sales WHERE category = 'Electronics'
